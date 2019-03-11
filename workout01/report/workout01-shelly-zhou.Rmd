@@ -1,0 +1,47 @@
+---
+title: "GSW Players Shooting Statistics Report"
+author: "Shelly Zhou"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+###Introduction: 
+
+As one of the best teams in NBA, Golden State Warriors attracts a tremendous amount of attentions all year around. Every good basketball team relies heavily on its players, and Golden State Warriors does not lack the well performing ones. Here we analyze some of the best players on this team, and see how these big names were actually performing with their knowly "amazing" abilities and compare them with each other. The player we're looking at are Andre Iguodala, Draymond Green, Kevin Durant, Klay Thompson and Stephen Curry. To be more precise, we will be looking at their shot statistics from season 2016. 
+
+###Effective Shooting Percentage 
+
+One effective way to see how players are performing is to calculate the effective shooting percentage, which is the ratio of made field goals to total field goals. 
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+shots_data <- readr::read_csv("../data/shots-data.csv")
+```
+###2 PT Field Goal Statistics 
+```{r twopoint, echo=FALSE, message=FALSE}
+#2-point field goal 
+library(dplyr)
+twopoint <- shots_data[shots_data$shot_type == "2PT Field Goal", c("name", "shot_made_flag")] %>% group_by(name) %>% summarise(total = n(), made = sum(shot_made_flag == "shot_yes")) %>% mutate(perc_made = made/total) %>% arrange(desc(perc_made))
+twopoint
+```
+###3 PT Field Goal Statistics 
+```{r threepoint, echo=FALSE}
+#3-point field goal 
+threepoint <- shots_data[shots_data$shot_type == "3PT Field Goal", c("name", "shot_made_flag")] %>% group_by(name) %>% summarise(total = n(), made = sum(shot_made_flag == "shot_yes")) %>% mutate(perc_made = made/total) %>% arrange(desc(perc_made))
+threepoint
+```
+###Overall Field Goal Statistics 
+```{r allpoint, echo = FALSE}
+#Overall field goal 
+allpoint <- shots_data[ , c("name", "shot_made_flag")] %>% group_by(name) %>% summarise(total = n(), made = sum(shot_made_flag == "shot_yes")) %>% mutate(perc_made = made/total) %>% arrange(desc(perc_made))
+allpoint
+```
+###Graph of players shot 
+```{r label, out.width = "80%", include = TRUE, echo = FALSE, fig.align='center'}
+library(knitr)
+knitr::include_graphics("../images/gsw-shot-charts.png")
+```
+
+
+
+
