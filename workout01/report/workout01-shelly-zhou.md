@@ -26,7 +26,7 @@ The table below shows the total 2-point field goal attempted, made, and their ra
 
 ### 3 PT Field Goal Statistics
 
-This table gives us the same information about the 3-points field goals associated with each player. Here, the picture changed a lot. The best a player can do, is only scoring about 40% of the attempted 3-points field goals. With the nature of being farther away, even these amazing players cannot take a big win against the 3-points field goals. In this case, Klay Thompson and Stephen Curry have the highest scoring ratio, who also have the highest number of attempts, where as everyone else has only about a third of the attempts that they have.
+This table gives us the same information about the 3-points field goals associated with each player. Here, the picture changed a lot. The best a player can do, is only scoring about 40% of the attempted 3-points field goals. With the nature of being farther away, even these amazing players cannot take a big win against the 3-points field goals. In this case, Klay Thompson and Stephen Curry have the highest scoring ratios, who also have the highest number of attempts, where as everyone else has only about a third of the attempts that they have.
 
 | name           |  total|  made|  perc\_made|
 |:---------------|------:|-----:|-----------:|
@@ -38,6 +38,8 @@ This table gives us the same information about the 3-points field goals associat
 
 ### Overall Field Goal Statistics
 
+Here a summary of effective shooting percentage for all goals attempted that each player had is given. Considering the overall productivity, Kevin Durant was the most effective in 2016 season, with a 54% shooting success rate. Even though Klay Thompson and Stephen Curry did not make the top, they made the most attempts among all the players. It is worth noting that even though Andre Iguodala did not take part in as many games, he was overall very effective among all.
+
 | name           |  total|  made|  perc\_made|
 |:---------------|------:|-----:|-----------:|
 | Kevin Durant   |    915|   495|   0.5409836|
@@ -46,6 +48,10 @@ This table gives us the same information about the 3-points field goals associat
 | Stephen Curry  |   1250|   584|   0.4672000|
 | Draymond Green |    578|   245|   0.4238754|
 
-### Graph of players shot
+### Related to Position
 
-<img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" />
+The above results clearly explained how the position of a player can be largely related to what kind of field goals they're effective at. As a small forward, Kevin Durant's moving range is mainly within the 3-point line and near the basket. Therefore, he was able to obtain many chances to score a 2-point field goal, while very little chance for a 3-point field goal. On the other hand, Klay Thompson who is a power forward, is usually good at scoring 3-points field goals. This showed why he was able to score many 3-point field goals compared to the others. Stephen Curry, the point guard, who sometimes stays on the 3-point line but sometimes inside as well, have a decent record in both.
+
+### Graph of Players's Shooting Range
+
+In this section, we gives a comprehensive graph of where each of the player attempt to score, combined with information on their success and failure. As it was indicated above, Andre Iguodala had way less attempts than all the other players. Kevin Durant's graph shows a high density around the basket and inside the 3-point line, which is where his effective 2-points field goal shooting percentage came from. Klay Thomspon's goal attempts are most evenly distributed on the playground. However, he is much more capable of making 3-points field goals. It can be seen from the graph that Stephen Curry attempts 3-points field goal more. It is interesting to note that he made the most farthest shots among everyone, and some of the really far ones were actually successes, which shows his amazing ability in terms of extra far distance shooting. EVen though Klay Thompson was able to be more effective to make 3-points field goals, but his had almost all of them on the 3-point line and none that's unusually far like Stephen Curry. <img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" />
