@@ -1,7 +1,10 @@
-## title: 
-## Description:
-## Input: Datasets contain every players shot informtion
-## Output:
+##==========================================================================================================
+## title: make-shots-charts
+## Description: Using the datasets to create images of players'shooting ranges and behaviors
+## Input: Datasets contain every players shot informtion, the basketball court image
+## Output: Images where shooting coordinates of each shot is displayed on a basketball court for each player
+##==========================================================================================================
+
 
 ## Add the image as background
 library(jpeg)

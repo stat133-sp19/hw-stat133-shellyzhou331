@@ -1,7 +1,10 @@
-## title : 
-## description:
-## inputs: 
-## outputs: 
+##=============================================
+##title : make-shots-data
+## description:Manipulating the shooting datasets of five players  
+## inputs: Five shooting datasets for players 
+## outputs: Summaries of tables of shooting statistics of each player 
+##==============================================
+
 
 
 ## Read the files
