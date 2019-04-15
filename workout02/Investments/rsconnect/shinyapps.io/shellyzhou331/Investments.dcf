@@ -1,0 +1,12 @@
+name: Investments
+title: Investments
+username:
+account: shellyzhou331
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 866987
+bundleId: 2013887
+url: https://shellyzhou331.shinyapps.io/Investments/
+when: 1555366748.8736
+asMultiple: FALSE
+asStatic: FALSE
