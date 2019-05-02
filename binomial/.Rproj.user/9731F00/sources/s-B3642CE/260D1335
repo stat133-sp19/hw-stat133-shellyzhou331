@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556815843776.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "78905044",
+    "id" : "260D1335",
+    "lastKnownWriteTime" : 1556827175,
+    "last_content_update" : 1556827175431,
+    "path" : "C:/Berkeley/Stat-133/Workout/hw-stat133/binomial/vignettes/information.Rmd",
+    "project_path" : "vignettes/information.Rmd",
+    "properties" : {
+        "cursorPosition" : "66,0",
+        "scrollLine" : "48"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

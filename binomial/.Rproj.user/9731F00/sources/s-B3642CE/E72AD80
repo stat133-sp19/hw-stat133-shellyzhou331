@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556827407335.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E72AD80",
+    "lastKnownWriteTime" : 1556830069,
+    "last_content_update" : 1556830069487,
+    "path" : "C:/Berkeley/Stat-133/Workout/hw-stat133/binomial/tests/testthat/test_binomial.R",
+    "project_path" : "tests/testthat/test_binomial.R",
+    "properties" : {
+        "cursorPosition" : "70,39",
+        "scrollLine" : "54",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

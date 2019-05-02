@@ -1,0 +1,67 @@
+---
+title: "Using binomial package"
+author: "Shelly Zhou"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using binomial package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(binomial)
+```
+
+##Binomial 
+
+The package "binomial" is centered around binomial distributed variables. With number of trials, probability and number of success, the package allows outputs with thorough information about the related measures and visualizations. 
+
+
+##Distribution and Getting 'bindis'
+
+You can get the distribution and its output is a '"bindis"', which can be done with bin_distribution(). You can also plot the graph:  
+```{r}
+prob <- bin_distribution(10, 0.5)
+prob
+```
+
+```{r, fig.show='hold'}
+plot(prob)
+```
+
+
+
+##Cumulative Density and 'bincum'
+
+
+Cumulative Density can also be retrieved from bin_cumulative(), which outputs a '"bincum"' object. Graph can be plotted with plot(): 
+```{r}
+cum <- bin_cumulative(10, 0.5)
+cum
+```
+
+```{r, fig.show='hold'}
+plot(cum)
+```
+
+
+##Summary of Binomial Variable
+
+By creating a binomial variable 'binvar' using bin_variable(). You can print the summary with related measures of the variable with summary():
+```{r}
+variable <- bin_variable(10, 0.5)
+summary(variable)
+```
+
+##Computing Measures 
+
+You can also use specific functions to get related measures of your variable separately: 
+```{r}
+bin_mean(variable)
+```
+
