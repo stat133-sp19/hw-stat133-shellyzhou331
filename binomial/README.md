@@ -16,10 +16,9 @@ This is a package that allows the you to get information related to a binomial d
 The package was develped through `"devtools"`.
 
 ```r
-# development version from GitHub:
-#install.packages("devtools") 
+install.packages("devtools") 
 
-# install "binomial" package without vignettes
+# Install "binomial" package without vignettes
 devtools::install_github("shellyzhou331/binomial")
 
 # With vignettes
