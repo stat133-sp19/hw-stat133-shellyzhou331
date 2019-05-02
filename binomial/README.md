@@ -12,15 +12,22 @@ This is a package that allows the you to get information related to a binomial d
 - `summary()` can be used to see detailed information about your binomial variable.
 - Specific measures can be retrieved using functions like `bin_mean()`, etc. 
 
-### Installation
-The package was develped through `"devtools"`.
+### Examples 
 
+Plot an object of class `bindis`.
 ```r
-install.packages("devtools") 
+bindis <- bin_distribution(trials, prob)
+plot(bindis)
+```
 
-# Install "binomial" package without vignettes
-devtools::install_github("shellyzhou331/binomial")
+Plot an object of class `bincum`.
+```r
+bincum <- bin_cumulative(trials, prob)
+plot(bincum)
+```
 
-# With vignettes
-devtools::install_github("shellyzhou331/binomial", build_vignettes = TRUE)
+Print the summary of a binomial variable
+```r
+binvar <- bin_variable(trials, prob)
+summary(binvar)
 ```
