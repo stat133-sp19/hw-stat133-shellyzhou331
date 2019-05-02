@@ -13,3 +13,14 @@ This is a package that allows the you to get information related to a binomial d
 - Specific measures can be retrieved using functions like `bin_mean()`, etc. 
 
 ### Installation
+The package was develped through `"devtools"`.
+
+`# development version from GitHub:
+#install.packages("devtools") 
+
+# install "binomial" package without vignettes
+devtools::install_github("shellyzhou331/binomial")
+
+# With vignettes
+devtools::install_github("shellyzhou331/binomial", build_vignettes = TRUE)
+`
